@@ -1,0 +1,10 @@
+{
+	"name": "Chrome Home",
+	"version": "1.0",
+	"description": "Chrome home",
+	"manifest_version": 2,
+	"permissions": ["tabs"],
+	"chrome_url_overrides": {
+		"newtab": "index.html"
+	}
+}

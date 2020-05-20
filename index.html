@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+	<script src="/assets/scripts/moment.js"></script>
+	<script src="/assets/scripts/index.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Palanquin:wght@700&display=swap" rel="stylesheet">
+	<style>
+		html, body {
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+			height: 100vh;
+			font-family: Palaquin, sans-serif;
+		}
+
+		body {
+			background: black;
+		}
+
+		#Greeting {
+			display: block;
+			margin-bottom: 1rem;
+			font-size: 3em;
+			text-align: center;
+		}
+
+		#CurrentTime {
+			display: block;
+			font-size: 4em;
+			font-weight: bold;
+			text-align: center;
+		}
+
+		main {
+			height: 100vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		#Content {
+			color: white;
+			margin-bottom: 2rem;
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<section id="Content">
+			<h1 id="Greeting"></h1>
+			<time id="CurrentTime"></time>
+		</section>
+	</main>
+</body>
+</html>
