@@ -32,5 +32,5 @@ window.addEventListener('DOMContentLoaded', function() {
 	var homePage = new HomePage();
 	setInterval(function() {
 		homePage.setTime();
-	}, 30000);
+	}, 1000);
 })
