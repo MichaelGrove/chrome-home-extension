@@ -15,7 +15,7 @@ window.addEventListener('DOMContentLoaded', function() {
 	
 		this.setGreeting = function() {
 			var text = "Hello";
-			var hours = moment()
+			var hours = moment().hours()
 			if (hours > 4 && hours < 12) {
 				text = "Good morning";
 			} else if (hours >= 12 && hours < 18) {
