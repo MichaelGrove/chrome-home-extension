@@ -28,7 +28,7 @@ var quotes = [
 	"“The farther backward you can look, the farther forward you are likely to see.”\n\n― Winston S. Churchill",
 	"“You will never reach your destination if you stop and throw stones at every dog that barks.”\n\n― Winston S. Churchill",
 	"“When the eagles are silent, the parrots begin to jabber.”\n\n― Winston S. Churchill",
-	"“Criticism may not be agreeable, but it is necessary. It fulfils the same function as pain in the human body; it calls attention to the development of an unhealthy state of things. If it is heeded in time, danger may be averted; if it is suppressed, a fatal distemper may develop.\"”\n\n”\n\n[New Statesman interview, 7 January 1939]”\n\n― Winston S. Churchill",
+	"“Criticism may not be agreeable, but it is necessary. It fulfils the same function as pain in the human body; it calls attention to the development of an unhealthy state of things. If it is heeded in time, danger may be averted; if it is suppressed, a fatal distemper may develop.”\n\n― Winston S. Churchill",
 	"“All the great things are simple, and many can be expressed in a single word: freedom, justice, honor, duty, mercy, hope”\n\n― Winston S. Churchill",
 	"“If you have an important point to make, don't try to be subtle or clever. Use a pile driver. Hit the point once. Then come back and hit it again. Then hit it a third time - a tremendous whack.”\n\n― Winston S. Churchill",
 	"“In the course of my life, I have often had to eat my words, and I must confess that I have always found it a wholesome diet.”\n\n― Winston S. Churchill",
