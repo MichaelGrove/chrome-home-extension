@@ -10,7 +10,7 @@ var quotes = [
 	"“A lady came up to me one day and said 'Sir! You are drunk', to which I replied 'I am drunk today madam, and tomorrow I shall be sober but you will still be ugly.”\n\n― Winston S. Churchill",
 	"“Nothing in life is so exhilarating as to be shot at without result.”\n\n― Winston S. Churchill",
 	"“Kites rise highest against the wind, not with it.”\n\n― Winston S. Churchill",
-	"“Never give in. Never give in. Never, never, never, never—in nothing, great or small, large or petty—never give in, except to convictions of honour and good sense. Never yield to force. Never yield to the apparently overwhelming might of the enemy.”\n\n― Winston S. Churchill, Never Give In!: The Best of Winston S. Churchill's Speeches",
+	"“Never give in. Never give in. Never, never, never, never—in nothing, great or small, large or petty—never give in, except to convictions of honour and good sense. Never yield to force. Never yield to the apparently overwhelming might of the enemy.”\n\n― Winston S. Churchill",
 	"“Personally, I'm always ready to learn, although I do not always like being taught.”\n\n― Winston S. Churchill",
 	"“For myself I am an optimist - it does not seem to be much use to be anything else.”\n\n― Winston S. Churchill",
 	"“A fanatic is one who can't change his mind and won't change the subject.”\n\n― Winston S. Churchill",
