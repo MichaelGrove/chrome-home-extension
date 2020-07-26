@@ -75,6 +75,8 @@ var quotes = [
 	"“Begin each day by telling yourself: Today I shall be meeting with interference, ingratitude, insolence, disloyalty, ill-will, and selfishness – all of them due to the offenders’ ignorance of what is good or evil.”\n\n― Marcus Aurelius, Meditations",
 	"“Look well into thyself; there is a source of strength which will always spring up if thou wilt always look.”\n\n― Marcus Aurelius, Meditations",
 	"“How much time he gains who does not look to see what his neighbour says or does or thinks, but only at what he does himself, to make it just and holy.”\n\n― Marcus Aurelius, Meditations",
+	"“If you change the way you look at things things you look at change.”\n\n― Errol Gerson",
+	"“Find a need and fill it.”\n\n― Errol Gerson",
 ];
 
 window.addEventListener('DOMContentLoaded', function() {
