@@ -77,6 +77,8 @@ var quotes = [
 	"“How much time he gains who does not look to see what his neighbour says or does or thinks, but only at what he does himself, to make it just and holy.”\n\n― Marcus Aurelius, Meditations",
 	"“If you change the way you look at things things you look at change.”\n\n― Errol Gerson",
 	"“Find a need and fill it.”\n\n― Errol Gerson",
+  "“It's a dangerous business, Frodo, going out your door. You step onto the road, and if you don't keep your feet, there's no knowing where you might be swept off to.”\n\n― Bilbo Baggins",
+  "“I was talking aloud to myself. A habit of the old: they choose the wisest person present to speak to”\n\n― Gandalf",
 ];
 
 window.addEventListener('DOMContentLoaded', function() {
