@@ -17,7 +17,7 @@
 		}
 
 		body {
-			background: black;
+			/* background: black; */
 		}
 
 		#Greeting {
@@ -25,6 +25,32 @@
 			margin-bottom: 1rem;
 			font-size: 3em;
 			text-align: center;
+		}
+
+		.bg-image {
+  			background-repeat: no-repeat, repeat;
+			background-position: center;
+			background-color: black;
+		}
+
+		.bg-image-1 {
+			background-image: url('/assets/images/image-1.jpg');
+		}
+
+		.bg-image-2 {
+			background-image: url('/assets/images/image-2.jpg');
+		}
+
+		.bg-image-3 {
+			background-image: url('/assets/images/image-3.jpg');
+		}
+
+		.bg-image-4 {
+			background-image: url('/assets/images/image-4.jpg');
+		}
+
+		.gradient {
+			background: linear-gradient(rgba(0,0,0,0.5), black)
 		}
 
 		#CurrentTime {
@@ -54,13 +80,15 @@
 		}
 	</style>
 </head>
-<body>
-	<main>
-		<section id="Content">
-			<time id="CurrentTime"></time>
-			<h1 id="Greeting"></h1>
-			<blockquote id="Quote"></blockquote>
-		</section>
-	</main>
+<body id="BgImage" class="bg-image">
+	<div class="gradient">
+		<main>
+			<section id="Content">
+				<time id="CurrentTime"></time>
+				<h1 id="Greeting"></h1>
+				<blockquote id="Quote"></blockquote>
+			</section>
+		</main>
+	</div>
 </body>
 </html>

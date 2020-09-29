@@ -86,10 +86,20 @@ window.addEventListener('DOMContentLoaded', function() {
 			this.CurrentTimeEl = document.getElementById('CurrentTime');
 			this.QuoteEl = document.getElementById('Quote');
 
+			this.setImage();
 			this.setTime();
 			this.setGreeting();
 			this.setRandomQuote();
 			return this;
+		}
+
+		this.setImage = function() {
+			var el = document.getElementById('BgImage')
+			el.classList.add(this.randomImage(4))
+		}
+
+		this.randomImage = function(max) {
+			return 'bg-image-' + (Math.floor(Math.random() * max) + 1)
 		}
 
 		this.setTime = function() {
