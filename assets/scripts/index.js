@@ -10,7 +10,7 @@ var quotes = [
 	"“A lady came up to me one day and said 'Sir! You are drunk', to which I replied 'I am drunk today madam, and tomorrow I shall be sober but you will still be ugly.”\n\n― Winston S. Churchill",
 	"“Nothing in life is so exhilarating as to be shot at without result.”\n\n― Winston S. Churchill",
 	"“Kites rise highest against the wind, not with it.”\n\n― Winston S. Churchill",
-	"“Never give in. Never give in. Never, never, never, never—in nothing, great or small, large or petty—never give in, except to convictions of honour and good sense. Never yield to force. Never yield to the apparently overwhelming might of the enemy.”\n\n― Winston S. Churchill, Never Give In!: The Best of Winston S. Churchill's Speeches",
+	"“Never give in. Never give in. Never, never, never, never—in nothing, great or small, large or petty—never give in, except to convictions of honour and good sense. Never yield to force. Never yield to the apparently overwhelming might of the enemy.”\n\n― Winston S. Churchill",
 	"“Personally, I'm always ready to learn, although I do not always like being taught.”\n\n― Winston S. Churchill",
 	"“For myself I am an optimist - it does not seem to be much use to be anything else.”\n\n― Winston S. Churchill",
 	"“A fanatic is one who can't change his mind and won't change the subject.”\n\n― Winston S. Churchill",
@@ -28,7 +28,7 @@ var quotes = [
 	"“The farther backward you can look, the farther forward you are likely to see.”\n\n― Winston S. Churchill",
 	"“You will never reach your destination if you stop and throw stones at every dog that barks.”\n\n― Winston S. Churchill",
 	"“When the eagles are silent, the parrots begin to jabber.”\n\n― Winston S. Churchill",
-	"“Criticism may not be agreeable, but it is necessary. It fulfils the same function as pain in the human body; it calls attention to the development of an unhealthy state of things. If it is heeded in time, danger may be averted; if it is suppressed, a fatal distemper may develop.\"”\n\n”\n\n[New Statesman interview, 7 January 1939]”\n\n― Winston S. Churchill",
+	"“Criticism may not be agreeable, but it is necessary. It fulfils the same function as pain in the human body; it calls attention to the development of an unhealthy state of things. If it is heeded in time, danger may be averted; if it is suppressed, a fatal distemper may develop.”\n\n― Winston S. Churchill",
 	"“All the great things are simple, and many can be expressed in a single word: freedom, justice, honor, duty, mercy, hope”\n\n― Winston S. Churchill",
 	"“If you have an important point to make, don't try to be subtle or clever. Use a pile driver. Hit the point once. Then come back and hit it again. Then hit it a third time - a tremendous whack.”\n\n― Winston S. Churchill",
 	"“In the course of my life, I have often had to eat my words, and I must confess that I have always found it a wholesome diet.”\n\n― Winston S. Churchill",
@@ -88,10 +88,20 @@ window.addEventListener('DOMContentLoaded', function() {
 			this.CurrentTimeEl = document.getElementById('CurrentTime');
 			this.QuoteEl = document.getElementById('Quote');
 
+			this.setImage();
 			this.setTime();
 			this.setGreeting();
 			this.setRandomQuote();
 			return this;
+		}
+
+		this.setImage = function() {
+			var el = document.getElementById('BgImage')
+			el.classList.add(this.randomImage(4))
+		}
+
+		this.randomImage = function(max) {
+			return 'bg-image-' + (Math.floor(Math.random() * max) + 1)
 		}
 
 		this.setTime = function() {
