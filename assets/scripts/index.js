@@ -96,12 +96,32 @@ window.addEventListener('DOMContentLoaded', function() {
 		}
 
 		this.setImage = function() {
-			var el = document.getElementById('BgImage')
-			el.classList.add(this.randomImage(4))
+			const el = document.getElementById('BgImage')
+			el.style.cssText += `background-image: url('${this.randomImage()}');`;
 		}
 
-		this.randomImage = function(max) {
-			return 'bg-image-' + (Math.floor(Math.random() * max) + 1)
+		this.randomImage = function() {
+			const images = [
+				'/assets/images/35lmi4yix8491.webp',
+				'/assets/images/5uzvbezix8491.webp',
+				'/assets/images/6cz9mwydpa591.webp',
+				'/assets/images/7mbmzzxix8491.webp',
+				'/assets/images/85vcgwxix8491.webp',
+				'/assets/images/aas16qedpa591.webp',
+				'/assets/images/c0j64zsfpa591.webp',
+				'/assets/images/cqv8wuxix8491.webp',
+				'/assets/images/hj4qeuxix8491.webp',
+				'/assets/images/jlhqruxix8491.webp',
+				'/assets/images/krxr32yix8491.webp',
+				'/assets/images/m6vee2yix8491.webp',
+				'/assets/images/nntbqyxix8491.webp',
+				'/assets/images/vbpf85gepa591.webp',
+				'/assets/images/w81r0vxix8491.webp',
+				'/assets/images/y27a3vxix8491.webp',
+				'/assets/images/y6gpr1yix8491.webp',
+				'/assets/images/ygwvlezix8491.webp',
+			];			
+			return images[Math.floor(Math.random() * images.length)];
 		}
 
 		this.setTime = function() {
